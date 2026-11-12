@@ -1,9 +1,8 @@
 :root {
     --primary-color: #1B365D;
-    --secondary-color: #00A896;
+    --secondary-color: white;
     --accent-color: #FF6B35;
-    --background-color: #F4F5F6;
-    --headline-font: "Montserrat", san-serif;
+    --heading-font: "Montserrat", san-serif;
     --body-font: "Open Sans", serif;
 }
 
@@ -24,13 +23,13 @@ header, main, footer {
 }
 
 h1, h2 {
-    font-family: var(--headline-font);
+    font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
 h2 {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--secondary-color);
     text-align: center;
     padding: 5px;
 }
