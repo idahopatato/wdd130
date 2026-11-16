@@ -17,8 +17,38 @@ body {
     color: var(--accent-color)
 }
 
+header {
+    display: grid;
+    grid-column: 1fr 1fr;
+    align-items: center;
+    padding: 20px;
+}
+
+header img {
+    grid-column: 1/2;
+}
+
+header nav {
+    grid-column: 2/3;
+}
+
+header a {
+    text-decoration: none;
+    display: block;
+    border: 1px solid #1B365D;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
 header, main, footer {
-    width: 840px;
+    max-width: 840px;
     margin: 0 auto;
 }
 
@@ -37,15 +67,6 @@ h2 {
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
-}
-
-.socialmedia a {
-    text-decoration: none;
-}
-
-.socialmedia img {
-    width: 80px;
-    height: auto;
 }
 
 .hero {
@@ -79,4 +100,76 @@ h1 {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    align-items: center;
+}
+
+.history h2 {
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.history img {
+    width: 250px;
+    height: auto;
+}
+
+.left {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.right {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.adventure {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.adventure h2 {
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+
+figure {
+    padding: 10px;
+    text-align: center;    
+}
+
+figure img {
+    width: 125px;
+    height: auto;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    text-align: center;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia img {
+    width: 50px;
+    height: auto;
+    padding: 1px;
 }
