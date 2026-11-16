@@ -2,7 +2,7 @@
     --primary-color: #1B365D;
     --secondary-color: white;
     --accent-color: #FF6B35;
-    --heading-font: "Montserrat", san-serif;
+    --heading-font: "Montserrat", sans-serif;
     --body-font: "Open Sans", serif;
 }
 
@@ -14,12 +14,12 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--accent-color)
+    color: var(--primary-color);
 }
 
 header {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     align-items: center;
     padding: 20px;
 }
