@@ -1,7 +1,6 @@
 :root {
     --primary-color: #1B365D;
     --secondary-color: white;
-    --accent-color: #FF6B35;
     --heading-font: "Montserrat", sans-serif;
     --body-font: "Open Sans", serif;
 }
@@ -63,7 +62,11 @@ h2 {
     padding: 5px;
 }
 
-nav, p, section, article {
+nav, section {
+    margin: 16px 0 16px 0;
+}
+
+article, p {
     margin: 16px;
     padding: 8px;
 }
