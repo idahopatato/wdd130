@@ -76,6 +76,7 @@ nav, p, section, article {
     position: absolute;
     background-color: var(--primary-color);
     bottom: 10px;
+    color: var(--secondary-color);
 }
 
 .hero article img {
@@ -91,7 +92,6 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--background-color);
     color: var(--secondary-color);
 }
 
@@ -110,6 +110,7 @@ h1 {
 .history h2 {
     grid-column: 1/4;
     grid-row: 1/2;
+    color: var(--secondary-color);
 }
 
 .history img {
@@ -120,11 +121,13 @@ h1 {
 .left {
     grid-column: 1/2;
     grid-row: 2/3;
+    color: var(--primary-color);
 }
 
 .right {
     grid-column: 3/4;
     grid-row: 2/3;
+    color: var(--primary-color);
 }
 
 .adventure {
@@ -135,6 +138,11 @@ h1 {
 .adventure h2 {
     grid-column: 1/6;
     grid-row: 1/2;
+    color: var(--secondary-color);
+}
+
+.adventure figcaption {
+    color: var(--primary-color);
 }
 
 figure {
